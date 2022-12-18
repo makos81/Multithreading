@@ -1,4 +1,4 @@
-package com.kodilla.multi.ZadanieDomowe3;
+package com.kodilla.multi.zadanieDomowe3;
 
 import java.util.Random;
 import java.util.concurrent.Semaphore;
