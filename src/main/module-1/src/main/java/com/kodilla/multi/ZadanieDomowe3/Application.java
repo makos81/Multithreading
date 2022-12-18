@@ -1,4 +1,4 @@
-package ZadanieDomowe3;
+package com.kodilla.multi.ZadanieDomowe3;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
