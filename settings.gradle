@@ -1,4 +1,5 @@
 rootProject.name = 'kodilla-multithreading'
 include 'src:main:module-1'
 findProject(':src:main:module-1')?.name = 'module-1'
+include 'module-2'
 
