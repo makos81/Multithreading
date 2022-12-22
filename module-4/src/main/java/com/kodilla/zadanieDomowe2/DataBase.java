@@ -12,7 +12,7 @@ public class DataBase {
     private final Lock lock = new ReentrantLock();
     private final Condition dbNotEmpty = lock.newCondition();
     private final Condition dbNotFull = lock.newCondition();
-    private static final int CAPACITY = 15;
+    private static final int CAPACITY = 1;
 
     public void insert() throws InterruptedException {
         lock.lock();
