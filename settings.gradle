@@ -3,4 +3,5 @@ include 'src:main:module-1'
 findProject(':src:main:module-1')?.name = 'module-1'
 include 'module-2'
 include 'module-3'
+include 'module-4'
 
