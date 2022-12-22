@@ -13,7 +13,7 @@ public class Producer extends Thread {
         final Random random = new Random();
         try {
             while (counter < 3) {
-                db.select();
+                db.insert();
                 Thread.sleep(random.nextInt(1000));
                 counter++;
             }

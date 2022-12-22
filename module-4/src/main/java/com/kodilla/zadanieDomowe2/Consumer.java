@@ -14,7 +14,7 @@ public class Consumer extends Thread {
         final Random random = new Random();
         try {
             while (counter < 3) {
-                db.insert();
+                db.select();
                 Thread.sleep(random.nextInt(1000));
                 counter++;
             }
