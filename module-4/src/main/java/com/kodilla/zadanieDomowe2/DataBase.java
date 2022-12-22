@@ -14,7 +14,7 @@ public class DataBase {
     private final Condition dbNotFull = lock.newCondition();
     private static final int CAPACITY = 15;
 
-    public void select() throws InterruptedException {
+    public void insert() throws InterruptedException {
         lock.lock();
         try {
             while (customers.size() == CAPACITY) {
@@ -31,7 +31,7 @@ public class DataBase {
             lock.unlock();
         }
     }
-    public void insert() throws InterruptedException {
+    public void select() throws InterruptedException {
         lock.lock();
         try {
             while (customers.size() == 0) {
